@@ -116,7 +116,7 @@ https://gitdl.cn/https://raw.githubusercontent.com/fish2018/ol/main/tvbox.json
   
 
 ## 更新说明
-- V2.5版本 新增三个gh1代理；设置jar_suffix后会自动把历史的jar后缀批量成新的后缀
+- V2.5版本 新增三个gh1代理；设置jar_suffix后会自动把历史的jar后缀批量成新的后缀；兼容证书失效的接口
 - V2.4版本 mirror=1 https://mirror.ghproxy.com变更为https://ghp.ci；增加mirror=10为'https://gh.con.sh/https://raw.githubusercontent.com'
 - V2.3版本 更新大量cdn支持；默认使用githubfast.com加速clone和push，失败切换hub.yzuu.cf
 - V2.2版本 支持通过jar_suffix参数修改jar包后缀
