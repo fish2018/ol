@@ -42,6 +42,9 @@ docker run时使用-e选项通过环境变量传参
     - mirror=8 https://raw.nuaa.cf
     - mirror=9 https://raw.kkgithub.com
     - mirror=10 https://gh.con.sh/https://raw.githubusercontent.com
+    - mirror=11 https://gh.llkk.cc/https://raw.githubusercontent.com
+    - mirror=12 https://gh.ddlc.top/https://raw.githubusercontent.com
+    - mirror=13 https://gh-proxy.llyke.com/https://raw.githubusercontent.com
   - gh2类型(缓存不能及时更新，禁止缓存jar后缀，建议txt、json、js、css、html) https://raw.githubusercontent.com/fish2018/tvbox/master/all.json => https://xxxx/fish2018/tvbox/master/all.json
     - mirror=21 https://fastly.jsdelivr.net
     - mirror=22 https://jsd.onmicrosoft.cn
@@ -113,6 +116,7 @@ https://gitdl.cn/https://raw.githubusercontent.com/fish2018/ol/main/tvbox.json
   
 
 ## 更新说明
+- V2.5版本 新增三个gh1代理；设置jar_suffix后会自动把历史的jar后缀批量成新的后缀
 - V2.4版本 mirror=1 https://mirror.ghproxy.com变更为https://ghp.ci；增加mirror=10为'https://gh.con.sh/https://raw.githubusercontent.com'
 - V2.3版本 更新大量cdn支持；默认使用githubfast.com加速clone和push，失败切换hub.yzuu.cf
 - V2.2版本 支持通过jar_suffix参数修改jar包后缀
